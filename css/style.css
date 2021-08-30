@@ -21,9 +21,17 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 
 /*BODY*/
 body{
+	
+	color:#262626;
+	font-family: Helvetica, Arial, sans-serif;
+	display: flex;
+    align-items: center;
+    justify-content: center;
 
 }
-
+.container {
+	background-color: lightgrey;
+}
 /*TOPO*/
 header{
 	
@@ -39,13 +47,93 @@ main{
 	
 }
 	main .profile-content{
+		width: 880px;
+    	margin: 0 auto;
+		display: flex;
 
 	}
 
 	main .highlighted-stories{
+		width: 880px;
+    	margin: 0 auto;
 
 	}
 
-	main .profile-posts{
+	main .profile-posts, footer nav{
+		width: 880px;
+    	margin: 0 auto;
+		border-top: 2px solid gray;
+		box-sizing: border-box;
 
+
+	}
+	ul {
+		padding: 0;
+	}
+	.profile-data {
+		display: flex;
+	}
+	ul {
+		display: flex;
+		list-style: none;
+	}
+	.list_post {
+		height: 293px;
+		width: 293px;
+	}
+	div { 
+		width: 935px;
+		
+	}
+	.post {
+		width: 100%;
+	}
+	.ul__post {
+		flex-wrap: wrap;
+	}
+	nav, footer {
+		text-align: center;
+	}
+	.highlight {
+		width: 77px;
+		border-radius: 100%;
+		border: 4px gray double
+	}
+	.profile__photo {
+		border-radius: 100%;
+		border: 4px gray double
+	}	
+	.description {
+		flex-direction: column;
+		padding: 0px;
+		width: 660px;
+	}
+	.menu__posts a , footer a{
+		color: white;
+    	margin-right: 14px;
+	}
+	.menu__posts {
+		display: flex;
+		justify-content: center;
+
+	}
+	span {
+		font-weight: bold;
+	}
+	p {
+		margin-right: 20px;
+	}
+	a:hover {
+		color: darkslategray;
+		border-top: 2px solid darkslategray;
+		box-sizing: border-box;
+	}
+	figcaption {
+		text-align: center;
+	}
+	.container {
+		display: flex;
+    	flex-direction: column;
+    	justify-content: center;
+    	
 	}
