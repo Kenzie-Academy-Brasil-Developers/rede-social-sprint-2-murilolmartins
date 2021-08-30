@@ -107,6 +107,7 @@ main{
 		flex-direction: column;
 		padding: 0px;
 		width: 660px;
+		margin: 0px;
 	}
 	.menu__posts a , footer a{
 		color: white;
@@ -136,4 +137,16 @@ main{
     	flex-direction: column;
     	justify-content: center;
     	
+	}
+	h1 {
+		margin-bottom: 10px;
+	}
+	h2 {
+		margin: 0px;
+	}
+	.li1 {
+		height: 50px;
+	}
+	.li2 {
+		height: 45px;
 	}
